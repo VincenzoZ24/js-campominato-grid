@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: rgb(111, 246, 111);
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   width: 600px;
+   height: 600px;
+   border: 1px solid black;
+   margin: auto;
+}
+.cell{
+    border: 1px solid black;
+    width: calc(( 600px - 2px) / 10);
+    height: calc(( 600px - 2px) / 10);
+}
