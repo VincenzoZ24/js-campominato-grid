@@ -65,6 +65,17 @@ body{
     justify-content: center;
     align-items: center;
 }
+.cell_hard{
+    border: 1px solid black;
+    width: calc(( 600px - 2px) / 7);
+    height: calc(( 600px - 2px) / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cell_hard.active{
+    background-color: blue;
+}
 .container_medium{
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +84,25 @@ body{
     border: 1px solid black;
     margin: auto;
 }
+.container_hard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+}
+.container_hard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+}
 .container_medium.display_none{
+    display: none;
+}
+.container_hard.display_none{
     display: none;
 }
